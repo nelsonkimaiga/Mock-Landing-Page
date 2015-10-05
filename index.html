@@ -31,6 +31,65 @@
 </div>
 </div>
 
+<hr/>
+    <div id="nav">
+	<div class="gutter">
+    	</div>
+</div>
+    <hr />
+    <div id="content">
+      <div class="gutter">
+	<div class="device">
+		<h1>Uh Oh.</h1>
+		<p>We've got lost somewhere.</p>
+	</div>
+  <a href="/">Discover Home Again</a></div>
+    </div>
+    <hr />
+
+    <!--contact details-->
+<div id="contact" class="contact">
+      
+        <h2>The Journey Begins Here</h2>
+        <p class="lead">Get in touch and find out how you can get back home.</p>
+        
+        <div class="details">
+          
+          <p class="phone" title="Phone">
+            <img alt="Kenya" src="/images/icon_nl.gif" /> 0721496346<br />
+          </p>
+          <p class="email" title="Email">
+            <a href="mailto:nelsonkimaiga@aol">nelsonkimaiga@aol.com<a>
+          </p>
+ 
+        </div>
+        
+        <form name="contact_form" id="contact_form" onsubmit="jQuery.ajax({type:'POST',dataType:'html',data:jQuery(this).serialize(),success:function(data, textStatus){jQuery('#contact_update').html(data);},beforeSend:function(XMLHttpRequest){$('#contact_sending').slideDown().fadeIn();},complete:function(XMLHttpRequest, textStatus){$('#contact_sending').slideUp().fadeOut();},url:'/process-contact-form/'}); return false;" action="/process-contact-form/" method="post">	  <div id="contact_sending" style="display: none; margin-bottom: 10px;"><p>Sending...</p><img alt="Sending" src="/images/ajax_loader.gif" /></div>
+<div id="contact_update" style="display: ;">
+	
+		   <div id="contact_form_fields">
+	      <fieldset>
+	        <legend>Contact Form</legend>
+          <span class="aName">*</span>
+          <span class="aEmail">*</span>
+          <span class="aEnquiry">*</span>
+	      <input class="text" title="Name" type="text" name="contact[name]" value="Name" id="contact_name" />	        <input class="text" title="Phone" type="text" name="contact[number]" value="Phone" id="contact_number" />	        <input class="text" title="Email" type="text" name="contact[email]" value="Email" id="contact_email" />	        <textarea rows="3" cols="30" class="textarea" title="Enquiry" name="contact[enquiry]" id="contact_enquiry">Enquiry</textarea>	      </fieldset>	      
+	      <button type="submit" class="submit">Send</button>
+      </div>      
+    </div>
+  </form>
+      
+      </div>
+      
+    
+    </div>
+  
+  </div>
+        
+  <hr />
+  
+</body>
+</html>
 
 
 
