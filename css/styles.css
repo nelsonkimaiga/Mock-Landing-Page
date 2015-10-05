@@ -159,3 +159,36 @@ border-bottom:
 	#content a:hover,
 	#content a:focus { border-bottom-style: solid; text-decoration: none !important; }
   #content .green { color: #8AB640; }
+
+
+  /*footer*/
+  /* Footer */
+#footer .gutter { background: url(/images/footer.jpg) top center no-repeat; padding: 0 0 30px; }
+#footer h2 { padding: 41px 0 0; width: 680px; height: 50px; background: url(/images/text_footer_h2.gif) 0 41px no-repeat; }
+#footer .lead { margin: 4px 0 10px; width: 493px; height: 17px; background: url(/images/text_footer_lead.gif) 0 0 no-repeat; }
+#footer .contact { float: left; width: 704px; }
+	#footer .contact .details { float: left; width: 381px; }
+		#footer .contact .details p { color: #a1998b; font: bold 1.8em/1.4em Arial, sans-serif; padding: 18px 0 18px 54px; background-position: left center; background-repeat: no-repeat; }
+		#footer .contact .details a { color: #d9bd8d; text-decoration: none; }
+		#footer .contact .details img { vertical-align: middle; }
+		#footer .contact .details .phone { border-bottom: 1px solid #2c2a28; background-image: url(/images/icon_phone.gif); }
+		#footer .contact .details .email { border-top: 1px solid #4e4a44; border-bottom: 1px solid #2c2a28; background-image: url(/images/icon_email.gif); }
+		#footer .contact .details .skype { border-top: 1px solid #4e4a44; background-image: url(/images/icon_skype.gif); }
+	#footer .contact form { float: right; width: 293px; margin: 5px 0 0; }
+  #footer .contact form fieldset { position: relative; }
+		#footer .contact form legend { display: none; }
+    #footer .contact form .aName,
+    #footer .contact form .aEmail,
+    #footer .contact form .aEnquiry { font: bold 2.8em/1.2em Arial, sans-serif; color: #a7a093; position: absolute; right: 20px; }
+    #footer .contact form .aName { top: 13px; }
+    #footer .contact form .aEmail { top: 53px; }
+    #footer .contact form .aEnquiry { top: 134px; }
+		#footer .contact form input,
+		#footer .contact form textarea {width: 275px; margin: 8px 0 0; display: block; padding: 5px 8px; font: bold 1.8em/1.2em Arial, sans-serif; color: #a7a093; background: #2c2a28; border: 1px solid #4e4a44; }
+		#footer .contact .submit { cursor: pointer; float: right; margin: 10px 0 0; width: 89px; height: 42px; border: none; background: url(/images/footer_contact_send.gif) 0 0 no-repeat; }
+#footer .comments { float: right; width: 231px; margin: 35px 0 0; }
+	#footer .comments blockquote { margin: 0 0 10px; }
+		#footer .comments blockquote p { font: normal 1.5em/1.3em Arial, sans-serif; color: #4a463e; padding: 24px 24px 14px; background: url(/images/comment_top.gif) 0 0 no-repeat; }
+		#footer .comments blockquote cite { padding: 29px 0 5px 24px; font: bold 1.5em/1.2em Arial, sans-serif; color: #d9d5cd; display: block; background: url(/images/comment_bottom.gif) 0 0 no-repeat; }
+#footer #contact_update p, #footer #contact_sending p  { font: normal 1.5em/1.3em Arial, sans-serif; color: #FFFFFF; }
+#footer ul.error_list li { font-size: 1.4em; }
