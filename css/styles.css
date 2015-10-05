@@ -42,3 +42,120 @@ border-bottom:
 	background: #3a362f;
 	border-top: 1px solid #5b5447;
 }
+#content{
+	padding: 30px 0;
+	background: #d2d1d0 url()
+}
+
+#footer { 
+	background: #3b3630 url(/images/footer_bg.gif) 0 0 repeat-x; 
+	border-bottom: 1px solid #4e4a44; 
+	border-top: 1px solid #000;  
+}
+
+#copyright { 
+	padding: 38px 0; 
+	background: #2c2a28; 
+	border-top: 1px solid #232220; 
+}
+.gutter { 
+	width: 960px; 
+	margin: 0 auto; 
+	position: relative; 
+	height: 1%; 
+}
+
+/*more header styling*/
+#header .logo{
+	width: 419px; 
+	height: 184px; 
+}
+#header .lead { 
+	width: 434px; 
+	height: 90px; 
+	position: absolute; 
+	top: 70px; 
+	left: 439px; 
+	background: url(/images/strapline.gif) 0 0 no-repeat; 
+}
+#header .connect { 
+	position: absolute; 
+	top: 20px; right: 0; 
+	z-index: 11; 
+}
+#header .connect dt { 
+	float: right; width: 
+	78px; height: 14px; 
+	margin: 14px 0 0; 
+	padding: 0 0 0 5px; 
+	background: url(/images/connect.gif) 5px 0 no-repeat; 
+}
+#header .connect dd { 
+	float: right; 
+}
+#header .connect dd a { 
+	width: 42px; 
+	height: 42px; 
+	display: block; 
+	position: relative; 
+	z-index: 11;
+}
+#header .connect dd a:hover,
+#header .connect dd a:focus { 
+	background-position: 0 0; 
+}
+#header .connect dd .Facebook { 
+	background: url(/images/icon_fb.gif) 0 -42px no-repeat; 
+}
+#header .connect dd .Twitter { 
+	background: url(/images/icon_li.gif) 0 -42px no-repeat;
+}
+
+#header .connect dd .GitHub { 
+	background: url(/images/icon_li.gif) 0 -42px no-repeat;
+}
+
+/*navbar*/
+#nav ul { margin-left: -20px; height: 1%; display: block; position: relative; z-index: 10; }
+#nav ul li { float: left; height: 57px; }
+#nav ul li a { display: block; height: 57px; background: url(/images/nav.jpg) 0 57px no-repeat; }
+#nav .about { width: 95px; background-position: 0 -57px; }
+#nav .services { width: 114px; background-position: -95px -57px; }
+#nav .resources { width: 133px; background-position: -209px -57px; }
+
+#content .gutter { 
+	width: 860px; 
+	background: #dddddc url(/images/content_gutter_top.jpg) 0 0 no-repeat; 
+	padding: 46px 50px 50px; 
+}
+#content .gutter .bottom { 
+	position: absolute; 
+	left: 0; 
+	bottom: 0; 
+	width: 960px; 
+	height: 8px; 
+	overflow: 
+	hidden; 
+	background: url(/images/content_gutter_bottom.gif) 0 0 no-repeat; 
+}
+#content h1 { 
+	color: #2c2a28; 
+	font: bold 5.2em/1em "Bookman Old Style", Rockwell, Arial, sans-serif; 
+	margin: 0 0 0.2em; 
+}
+#content h2 { color: #2c2a28; font: bold 1.8em/1.1em Arial, sans-serif; margin: 0 0 0.5em; }
+#content h3 { color: #2c2a28; font: bold 1.8em/1.1em Arial, sans-serif; margin: 0 0 0.5em; } 
+#content p,
+#content ul,
+#content ol { color: #4A463E; font: 1.5em/1.3em Arial, sans-serif; margin: 0 0 1em; }
+#content ul,
+#content ol { list-style: disc; margin-left: 2em; color: #8AB640;}
+	#content hr { display: none; }
+		#content .hr { height: 0; clear: both; margin: 1em -50px; overflow: hidden; display: block; border-top: 1px solid #bfbebe; border-bottom: 1px solid #ededed; } 
+	#content blockquote { background: url(/images/q_left.gif) 0 10px no-repeat; padding: 15px 0 10px 35px; }
+		#content blockquote p { position: relative; height: 1%; background: url(/images/q_right.gif) bottom right no-repeat; margin: 0; padding: 0 30px 5px 0; font: italic 2.1em/1.3em Arial, sans-serif; color: #4A463E; }
+		#content blockquote cite { display: block; font: bold 1.8em/1.3em Arial, sans-serif; color: #8ab640; }
+	#content a { font-weight: bold; color: #2c2a28; text-decoration: none; border-bottom: 1px dotted #2c2a28; }
+	#content a:hover,
+	#content a:focus { border-bottom-style: solid; text-decoration: none !important; }
+  #content .green { color: #8AB640; }
