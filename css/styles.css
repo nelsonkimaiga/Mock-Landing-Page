@@ -29,3 +29,53 @@ background: url(images/background.jpg) no-repeat center center fixed;
   min-width: 50%;
   min-height: 50%;
 }
+
+.nav {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.5);
+    top: 0;
+    left: 0;
+    right:0;
+    padding: 16px;
+    margin: 0 auto;
+}
+/*floating left*/
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header h2 {
+		text-transform: uppercase;
+		color: #fff;
+		text-align: center;
+		display: block;
+		font-size: 3em;
+		line-height: 1em;
+		padding-top: 20px;
+	}
+
+header h2 span {
+		display: block;
+		font-size: 14px;
+		padding-top: 20px;
+		font-weight: normal;
+		color: rgba(255,255,255,0.6);
+		font-family: ProximaNovaLight;
+		letter-spacing: 0.2em;
+	}
+
+.text-content {
+	text-align: center;
+    color:#fff;
+   /* padding-top: 50px;*/
+    position: absolute;
+    position: center;
+    padding-top: 150px;
+}  
