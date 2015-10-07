@@ -78,4 +78,8 @@ header h2 span {
     position: absolute;
     position: center;
     padding-top: 150px;
-}  
+}
+
+h2{
+	font-family: ProximaNovaLight;
+}
